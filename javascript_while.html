@@ -1,0 +1,31 @@
+<!Doctype html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        Hello world; <br />
+        Hello world; <br />
+        Hello world; <br />
+        <script type="text/javascript">
+            /*
+            whilte(조건) { //boolean, ture -> false 까지
+                반복실행코드
+            }            
+
+            document.write("coding everybody <br />"); //웹페이지에 출력할 것
+
+            while(true) { //무한반복, 적당한 시점에 false로 바꿔야함
+                document.write('Coding everybody <br />');
+            }
+            */
+           var i = 0; // 반복초기화
+           while(i < 10) { //반복조건
+               document.write('Coding everybody ' + i + '<br />');
+               i = i + 1; //반복실행될 때마다 1씩 증가 - 반복실행
+           }
+
+           // while은 반복초기화, 조건, 실행 세 부분이 떨어져있음, 코드가 길어질 경우 멀리 떨어져 있기 때문에 수정의 여지, 가독성 저하 -> for
+        </script>
+    </body>
+</html>

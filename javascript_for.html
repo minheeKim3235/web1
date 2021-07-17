@@ -1,0 +1,45 @@
+<!Doctype html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        Hello world; <br />
+        Hello world; <br />
+        Hello world; <br />
+        <script type="text/javascript">
+           /* 
+           var i = 0;
+           while(i < 10) {
+               document.write('Coding everybody ' + i + '<br />');
+               i = i + 1;
+           }
+           
+          
+          for(var i = 0; i < 10; i++) { //반복초기화(한 번만 실행), 조건(Boolean), 실행을 한 번에, iterate, 반복문의 기준점
+              document.write('Coding everybody ' + i + '<br />');
+          }
+          
+
+          //반복문의 제어 - break, continue
+
+          for(i = 0; i < 10; i++) {
+              if ( i === 5 ) { // 반복문 안에 조건문이 들어갈 수 있음.
+                  break; // 현재의 반복문을 종료시키고 밖으로 빠져나가시오.
+                  continue; // 현재의 반복문만 종료하고 다음부터 시작.
+              }
+              document.write('Coding everybody ' + i + '<br />');
+          }
+          */
+
+          // 반복문의 중첩
+          for(var i = 0; i < 10; i++) {
+              for(var j = 0; j < 10; j++) {
+                  for(var k = 0; k < 10; ++k ) {
+                    document.write('Coding everybody ' + i + j + k + '<br />');
+                  }                  
+              }
+          }
+        </script>
+    </body>
+</html>
